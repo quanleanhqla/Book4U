@@ -1,0 +1,140 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Titles -->
+    <string name="app_name">Book4U</string>
+    <string name="title_crossfade">Simple Crossfade</string>
+    <string name="title_card_flip">Card Flip</string>
+    <string name="title_screen_slide">Screen Slide</string>
+    <string name="title_zoom">Zoom</string>
+    <string name="title_layout_changes">Layout Changes</string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+
+    <!-- Actions -->
+    <string name="action_toggle">Toggle indicator</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+    <!-- Messages -->
+    <string name="message_empty_layout_changes">Add an item above to get started.</string>
+    <string name="message_zoom_touch_expand">Touch a photo to expand it.</string>
+
+    <!-- Accessibility-only descriptions -->
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
+
+    <!-- Other strings -->
+    <string name="card_back_title">Angry Red Android</string>
+    <string name="card_back_description"><![CDATA[Lorem ipsum dolor sit]]></string>
+    <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
+    <string name="sodo_content">Vũ Trọng Phụng
+
+\nSố Đỏ
+
+\nI
+
+
+
+\nSỐ ĐÀO HOA CỦA XUÂN TÓC ĐỎ
+\nMINH+VĂN=VĂN MINH
+
+\nLÒNG THƯƠNG NGƯỜI CỦA BÀ PHÓ ĐOAN
+
+\nLúc ấy vào độ 3 giờ chiều, một ngày thứ năm.
+
+\nTrong khu sân quần mà bên ngoài là những hàng ruối kín mít, chỉ có một sân hữu là được hai người Pháp dùng đến. Hai đứa trẻ nhỏ tuổi uể oải đi nhặt những quả bóng để nén cho hai người Tây. Mồ hôi ướt đầm áo, hai người này cũng chơi uể oải như những nhà thể thao bất đắc dĩ khác.
+
+\n- xanh ca! 1
+
+\n- xanh xít! 2
+
+\nNhững câu hô như vậy chen lẫn những tiếng bồm bộp của những quả ban bị đánh đi, như giữ nhịp cho khúc âm nhạc của mấy vạn con ve sầu.
+
+\nNgoài đường ở vệ hè, một người bán nước chanh, ngồi chồm chỗm trên càng xe, đương nói chuyện với một người bạn đồng nghiệp.
+
+\n- Quái, thứ năm gì mà vắng thế!
+
+\n- Chốc nữa họ mới lại chứ? Bây giờ mới hơn ba giờ. Từ hôm nay trở đi, họ tập gấp, chắc ngày nào cũng phải luyện chứ chả cứ thứ năm thứ bảy hay chủ nhật...
+
+\n- Thế à? Sao biết?
+
+\n- Mê đi! Ba bốn tháng nữa, đức vua ra đây, lại còn gì! Chuyến này sẽ có cúp oai ghê... Các anh các chị gọi là tập mửa mật.
+
+\nTrên hè, dưới bóng cây gạo, một ông thầy số đã có tuổi ngồi bình tĩnh nhìn cái cháp, nghiên mực, miếng son, ống bút, với mấy lá số tử vi mẫu, thỉnh thoảng lại ngáp một cái như một nhà triết học chân chính. Cách đấy mười bước, Xuân Tóc Đỏ ngồi tri kỷ với một chị hàng mía. Thương mại? Không! Ấy là một cuộc tình duyên, với, hơn nữa - theo lối gọi của những ông làm báo - một cuộc tình duyên của Bình dân (chữ B hoa).
+
+\nLà vì Xuân Tóc Đỏ cứ sấn sổ đưa tay toan cướp giật ái tình...
+
+\n-... Cứ ỡm ờ mãi!
+
+\n- Xin một tị! Xin một tị tỉ tì ti thôi!
+
+\n- Khỉ lắm nữa!
+
+\n- Lẳng lơ thì cũng chẳng mòn...
+
+\n- Thật đấy. Chính chuyên cũng chẳng sơn son để thờ! Nhưng này! Duyên kia ai đợi mà chờ? Tình kia ai tưởng mà tơ tưởng tình? Hàng đã ế bỏ mẹ ra thế này này, mua chẳng mua giúp lại chỉ được cái bộ ếm...
+
+\nXuân Tóc đỏ đứng phăng lên, anh hùng mà nói dỗi:
+
+\n- Đây không cần!
+
+\nChị hàng mía lườm dài một cái, cong cớn:
+
+\n- Không cần thì cút vào trong ấy có được không?
+
+\nXuân Tóc Đỏ lại cười hí hí như ngựa rồi ngồi xuống...
+
+\n- Nói đùa đấy, chứ đây mà lại chả cần đấy thì đấy cần đếch gì đây? Thôi đi, làm bộ vừa vừa chứ... Bán một xu nào.
+
+\n- Ừ! Ứ! Đưa tiền ngay ra đây xem!
+
+\nRút ở túi quần sau một cái mù soa, cởi một nút buộc như một cái tai lợn, Xuân Tóc Đỏ đập đồng hào ván xuống thềm gạch xi măng đánh keng một cái rất oanh liệt.</string>
+    <string name="sodo_phan2">QUAN PHÙ VÀ THÁI TUẾ
+\nTHAN ÔI DÂN TA! VĂN MINH, HẠI CHƯA!
+
+\nCẨM VÀ CẨM, CẨM PHẠT
+
+\nSau khi đi qua một cái sân vắng ngắt, người lính cảnh sát dẫn Xuân Tóc Đỏ và ông lão thầy số đến một cái buồng nhỏ vặn một vòng khóa, rồi mỉa mai ngọt ngào bảo:
+
+\n- Mời hai ngài vào !
+
+\nTrong phòng giam lúc ấy có một lão ăn mày và vợ con hắn, một thằng ma cà bông và một người đàn bà bán hàng rong có một gánh bún chả ế. Người này ngồi dựa tường, hai tay bó gối, giữa hai thúng quà, vẻ mặt đa tư lự, trong khi thằng ma cà bông nằm dài dưới gạch ngáy như kéo gỗ, và ba người của cái gia đình hành khất thì bắt rận cho nhau một cách nên thơ. Cánh cửa bị đẩy đánh sập một cái, tiếng ổ khóa bị xoay lách tách, tiếng giầy viên đội sếp mỗi lúc một xa... Một ngọn đèn đỏ vì yếu, chiếu một thứ sáng tối tăm cho gian phòng.
+
+\nLão thầy số để cháp, chiếu, ô xuống đất rồi ngồi lên cháp để thở hổn hển.
+
+\nXuân Tóc Đỏ thì còn đứng lại, hai tay gãi sườn nhìn mọi người một cách trịnh thượng, nhìn phòng giam một cách thản nhiên. Nó bĩu mồm nói:
+
+\n- Nước mẹ gì ! Bóp với chả bóp ! Phòng giam thì bằng cái lỗ mũi ! Rõ chả biết xấu !
+
+\nLão thầy số giương to hai con mắt:
+
+\n- Có xấu cái đếch ông đây này !
+
+\nXuân Tóc Đỏ phân vua ngay với mọi người:
+
+\n- Ê ! ê ! Rõ thối chửa ! Người ta bảo mình đâu nào ! Người ta bảo nhà nước chứ !
+
+\nNó nói vậy là có ý khinh bỉ cái nhà giam. Ty cảnh sát này là một ty sép thuộc bộ thứ 18 của thành phố mà nhà nước mới đặt thêm ra ít lâu nay thôi. Tất cả nhân viên trong sở cẩm chỉ có bẩy người: một ông Cẩm Tây, một ông thông ngôn ta, một ông quản cảnh sát, và bốn người lính. Khu vực mà sở cẩm có nhiệm vụ trông coi gồm có 16 phố, toàn là phố Tây, có phố dài hàng năm cây số, phố nào cũng có vẻ thái bình. Thành thử mỗi khi bắt phạt được một đám thì nhân viên sở cẩm sướng như trúng số độc đắc. Bốn thầy lính cảnh sát phải thay tua nhau đạp xe khắp cả 16 phố như thế mới trong trong nửa năm đã trở nên bốn cua rơ đại tài. Có thầy đã giật giải Hà Nội - Hải Phòng, có thầy được giải ba giải tư trong những cuộc đua Hà Nội - Sơn Tây, Hà Nội - Bắc Ninh, vòng quanh Hà Nội v.v... Trong 16 phố ấy chẳng may có khi xảy ra một sự gì phạm vào trật tự thì phần nhiều lại không thấy bóng vía các thầy cảnh sát đâu cả ! Hàng rong, bồi, bếp, phu xe, ăn mày, những người ấy chỉ sau khi thầy cảnh sát đã cắm đầu đạp xe khỏi phố thì mới đái đường, thì mới đánh nhau, chửi nhau... Vì lẽ tất cả có bốn thầy lính thôi, nên lúc nào ở sở cẩm cũng phải có hai thầy, chỉ còn lại hai thầy đi tuần ngoài đường. Mười sáu phố cho hai người, việc tuần phòng thành ra gần như là việc tập đua xe đạp!</string>
+</resources>

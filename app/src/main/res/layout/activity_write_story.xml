@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quanla.book.WriteStoryActivity">
+
+    <RelativeLayout
+        android:elevation="4dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:paddingLeft="3dp"
+            android:paddingRight="6dp"
+            android:src="@drawable/ic_arrow_back_white_24dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:layout_toRightOf="@id/iv_back"
+            android:layout_centerVertical="true"
+            android:textSize="80px"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:text="  Phần 1"
+            android:id="@+id/bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txt_tieptheo"
+            android:textColor="#FFFFFF"
+            android:text="XUẤT BẢN"
+            android:layout_marginRight="6dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/rl"
+        android:background="@drawable/image_selector"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:gravity="center"
+        android:text="Thêm media"
+        android:layout_marginTop="6dp"
+        android:id="@+id/txt_themmedia"
+        android:layout_below="@id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til1"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_themmedia">
+
+        <EditText
+            android:textSize="18sp"
+            android:hint="Đặt tiêu đề cho Phần Truyện của bạn"
+            android:id="@+id/tieude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_below="@id/til1"
+        android:layout_marginTop="6dp"
+        android:id="@+id/til2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/content"
+            android:hint="Nhấp vào đây để bắt đầu viết"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</RelativeLayout>

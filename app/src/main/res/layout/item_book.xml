@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/iv"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/biasach"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/iv"
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/txt_name"
+            android:id="@+id/txt_category"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/txt_category"
+            android:id="@+id/rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_eye"
+                app:srcCompat="@drawable/ic_remove_red_eye_black_24px"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:textColor="#9E9E9E"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/txt_eye"
+                android:layout_centerVertical="true"
+                android:text="2,14k"
+                android:layout_toRightOf="@id/iv_eye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/txt_eye"
+                android:id="@+id/iv_star"
+                app:srcCompat="@drawable/ic_star_rate_white_18px"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:textColor="#9E9E9E"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/txt_star"
+                android:layout_centerVertical="true"
+                android:text="30"
+                android:layout_toRightOf="@id/iv_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/txt_star"
+                android:id="@+id/iv_cmt"
+                app:srcCompat="@drawable/ic_storage_black_24px"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:textColor="#9E9E9E"
+                android:layout_marginLeft="6dp"
+                android:layout_centerVertical="true"
+                android:text="2"
+                android:layout_toRightOf="@id/iv_cmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:layout_below="@id/rl"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/txt_summary"
+            android:layout_toRightOf="@id/iv"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

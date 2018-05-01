@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quanla.book.ReadingBookActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:id="@+id/iv_left"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Phần 1"
+            android:focusable="false"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/edt_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:id="@+id/iv_right"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_above="@id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="24dp"
+                android:textSize="28sp"
+                android:text="Số đỏ"
+                android:id="@+id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/title"
+                android:id="@+id/rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_eye"
+                    app:srcCompat="@drawable/ic_remove_red_eye_black_24px"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp" />
+                <TextView
+                    android:textColor="#9E9E9E"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/txt_eye"
+                    android:layout_centerVertical="true"
+                    android:text="2,14k"
+                    android:layout_toRightOf="@id/iv_eye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_marginLeft="48dp"
+                    android:layout_toRightOf="@id/txt_eye"
+                    android:id="@+id/iv_star"
+                    app:srcCompat="@drawable/ic_star_rate_white_18px"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp" />
+                <TextView
+                    android:textColor="#9E9E9E"
+                    android:layout_marginLeft="6dp"
+                    android:id="@+id/txt_star"
+                    android:layout_centerVertical="true"
+                    android:text="30"
+                    android:layout_toRightOf="@id/iv_star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_marginLeft="48dp"
+                    android:layout_toRightOf="@id/txt_star"
+                    android:id="@+id/iv_cmt"
+                    app:srcCompat="@drawable/ic_mode_comment_black_24px"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp" />
+                <TextView
+                    android:textColor="#9E9E9E"
+                    android:layout_marginLeft="6dp"
+                    android:layout_centerVertical="true"
+                    android:text="2"
+                    android:layout_toRightOf="@id/iv_cmt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_margin="12dp"
+                android:textColor="#000000"
+                android:layout_below="@id/rl"
+                android:id="@+id/content"
+                android:text="@string/sodo_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="48dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="12dp"
+                android:layout_below="@id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_binhchon"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/ic_star_border_black_24px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_below="@id/iv_binhchon"
+                    android:layout_centerHorizontal="true"
+                    android:text="Bình chọn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginRight="48dp"
+                android:layout_marginBottom="12dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/content"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/iv_binhluan"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/ic_comment_black_24px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_below="@id/iv_binhluan"
+                    android:text="2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quanla.book.BookDetailActivity">
+
+
+        <RelativeLayout
+            android:elevation="4dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:paddingLeft="3dp"
+                android:paddingRight="6dp"
+                android:src="@drawable/ic_arrow_back_white_24dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/iv_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_toRightOf="@id/iv_back"
+                android:layout_centerVertical="true"
+                android:textSize="80px"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorPrimary"
+                android:text="  Số đỏ - Vũ Trọng Phụng"
+                android:id="@+id/bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                app:srcCompat="@drawable/ic_share_white_24px"
+                android:paddingRight="3dp"
+                android:layout_marginRight="6dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_below="@id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="12dp"
+                android:id="@+id/cv"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/biasach"
+                    android:src="@drawable/sodo"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <TextView
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_below="@id/cv"
+                android:text="Số đỏ"
+                android:id="@+id/txt_name"
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Vũ Trọng Phụng"
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt_author"
+                android:layout_below="@id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:elevation="6dp"
+                android:id="@+id/ll"
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/txt_author"
+                android:orientation="horizontal"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:elevation="6dp"
+                    android:id="@+id/btn_docngay"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#FFFFFF"
+                    android:text="Đọc ngay"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+                <Button
+                    android:elevation="6dp"
+                    android:textStyle="bold"
+                    android:text="+"
+                    android:textColor="#FFFFFF"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_margin="6dp"
+                android:id="@+id/txt_detail"
+                android:text="Số đỏ là một tiểu thuyết văn học của nhà văn Vũ Trọng Phụng, đăng ở Hà Nội báo từ số 40 ngày 7 tháng 10 1936 và được in thành sách lần đầu vào năm 1938"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:id="@+id/v1"
+                android:background="#BDBDBD"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/txt_detail"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Lượt xem: "
+                android:id="@+id/luotxem"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/v1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="100"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/luotxem"
+                android:layout_below="@id/v1"
+                android:layout_marginTop="6dp"
+                android:id="@+id/luotxem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Thể loại: "
+                android:id="@+id/theloai"
+                android:layout_below="@id/luotxem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Hư cấu, Châm biếm"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/theloai"
+                android:layout_below="@id/luotxem"
+                android:id="@+id/theloai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Trạng thái: "
+                android:id="@+id/trangthai"
+                android:layout_below="@id/theloai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Hoàn thành"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/trangthai"
+                android:layout_below="@id/theloai"
+                android:id="@+id/trangthai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:text="Nguồn: "
+                android:id="@+id/nguon"
+                android:layout_below="@id/trangthai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="abc@gmail"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/nguon"
+                android:layout_below="@id/trangthai"
+                android:id="@+id/nguon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:id="@+id/v2"
+                android:background="#BDBDBD"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/nguon"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_below="@id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginLeft="3dp"
+                    android:textSize="24sp"
+                    android:text="2 Phần"
+                    android:id="@+id/txt_mucluc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginLeft="3dp"
+                    android:text="Đã hoàn thành"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_below="@id/txt_mucluc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <View
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:id="@+id/v3"
+                android:background="#BDBDBD"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+
+            <TextView
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:id="@+id/txt_khuyendoc"
+                android:layout_marginTop="6dp"
+                android:layout_below="@id/v3"
+                android:text="Khuyên đọc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_margin="12dp"
+                android:layout_below="@id/txt_khuyendoc"
+                android:id="@+id/rv"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

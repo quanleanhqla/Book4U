@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/biasach"
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <SeekBar
+        android:progress="20"
+        android:id="@+id/sb"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/iv"
+        android:layout_width="100dp"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_name"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/sb"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        />
+
+
+
+
+
+</RelativeLayout>
